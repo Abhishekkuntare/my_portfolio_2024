@@ -1,0 +1,16 @@
+
+.home{
+    height: 100vh;
+    background: url("https://cdn.dribbble.com/userupload/7049819/file/original-b794bef666930794ae69f4674aafd0d8.jpg?resize=1200x675");
+    /* background: url("https://cdn.dribbble.com/userupload/7512099/file/original-d5e05000d6a2b4646dfee2cc3108d31a.png?resize=1200x900&vertical=center"); */
+    /* background: url("https://cdn.dribbble.com/users/1358460/screenshots/11896098/media/371c060cbef7357ff4e2f54a0408b064.jpg?resize=1000x750&vertical=center"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .home{
+    height: 120vh;
+  }
+  }

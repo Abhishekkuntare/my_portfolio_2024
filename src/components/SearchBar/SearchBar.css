@@ -1,0 +1,32 @@
+.header_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa";
+}
+.header_input > input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 70%;
+  background-color: transparent;
+  border: 3px solid #5918df;
+  color: white;
+}
+.header_input > input:hover {
+  border: 3px solid #854cf7;
+}
+.header_input > svg {
+  margin-left: -37px;
+}
+
+@media screen and (max-width: 500px) {
+  .header_input > input {
+    font-size: 14px;
+  }
+  .header_input > svg {
+    display: none;
+  }
+}

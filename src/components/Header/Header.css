@@ -1,0 +1,108 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.header_options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  margin-left: 10px;
+  font-family: "Stalinist One", cursive;
+  font-size: 29px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+}
+
+.logo_0 {
+  color: white;
+}
+
+.logo_1 {
+  color: #5918df;
+}
+.font {
+  font-family: "Major Mono Display", monospace;
+}
+ul {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  font-family: 'Kalnia', serif;
+
+}
+.header_options_01 {
+  padding-right: 20px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+ul:hover {
+  transform: translateY(10px);
+}
+.header_menu {
+  display: none;
+}
+.music {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+.music > svg:hover {
+  color: #5918df;
+}
+
+@media screen and (max-width: 817px) {
+  .header_main {
+    display: none;
+  }
+  .header_menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 817px) {
+  .logo {
+    font-size: 24px;
+  }
+  .music{
+    margin-right: 0px;
+  }
+}
+
+.mobileMenu {
+  top: 0;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 100001;
+  text-align: start;
+  /* background: url("https://cdn.dribbble.com/users/617471/screenshots/6608873/journey-movie-poster-template-psd-by-bornx-dribbble.jpg?resize=800x600&vertical=center"); */
+  background: url("https://cdn.dribbble.com/userupload/10830311/file/original-75fa8fddc7143a7cd3c87da5d7c36ab2.jpg?resize=1200x675&vertical=center");
+  left: 0;
+  right: 0;
+  
+}
+.mobilemenu_cross{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.mobileMenu > a > ul {
+  z-index: 100000;
+  margin-top: 15px;
+  font-size: 30px;
+  color: rgb(249, 249, 249);
+}

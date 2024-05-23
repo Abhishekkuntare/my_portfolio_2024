@@ -1,0 +1,31 @@
+.sidebar {
+    position: fixed;
+    top: 37%;
+    right: 0;
+    background-color: white;
+    width: 53px;
+    height: 169px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.sidebar_inner > img{
+    margin-bottom: 50px;
+}
+
+.sidebar_inner > h1 {
+    transform: rotate(-90deg);
+  color: black;
+  font-family: Roboto Condensed,Lato,Arial,sans-serif!important;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.sidebar_inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

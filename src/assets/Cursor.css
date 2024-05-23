@@ -1,0 +1,7 @@
+html {
+  --cursor-color: #f0eded;
+}
+
+html.dark-mode {
+  --cursor-color: #fff;
+}

@@ -1,0 +1,155 @@
+.about {
+  background-color: #14121c;
+  height: 194vh;
+}
+.color_call{
+  color: #FCFCD4;
+  font-weight: 300;
+  font-size: 16px;
+}
+.color_call3{
+  color: #FCFCD4;
+  font-weight: 300;
+  font-size: 16px;
+}
+.color_call2{
+  margin-top: 24.1px;
+  font-weight: 300;
+  color: #FCFCD4;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+}
+.about_box {
+  margin-left: 200px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.about_main {
+  display: flex;
+}
+.about_h1 {
+  color: #988e9f;
+  margin-left: 245px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Charmonman", cursive;
+}
+.number_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.numbers {
+  margin-right: 15px;
+  color: #3b3553;
+  font-size: 16px;
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+}
+.about_flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about_vl {
+  border-left: 2px solid #5918df;
+  height: 1415px;
+  width: 1px;
+}
+.about_circle {
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  color: #5918df;
+  background-color: #5918df;
+  margin-left: -14px;
+  margin-bottom: -10px;
+}
+.aboutdata {
+  margin-left: 20px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+}
+.aboutdata_p {
+  margin-top: 24.1px;
+  font-weight: 400;
+  color: #5918df;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+}
+.hover:hover {
+  font-weight: bolder;
+  color: rgb(49, 8, 251);
+}
+
+.aboutdata_span {
+  color: #eeff31;
+  font-weight: 500;
+  font-size: 16px;
+}
+.aboutdata_span:hover {
+  color: #e4f80c;
+}
+.asc {
+  color: #12b1f5;
+}
+.comment {
+  color: #78707e;
+  font-weight: 400;
+  }
+.dot {
+  color: #3b3553;
+}
+
+.row5_this {
+  color: #e3244c;
+}
+
+.row5_name {
+  color: #24e394;
+}
+.row5_myname{
+  color: #24e33a;
+}
+.row6_dob{
+  color: #e39d24;
+}
+.mob_number_row{
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .mob_number_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .about{
+    height: 321vh;
+  }
+  .about_h1 {
+    margin-left: 33px;
+  }
+  .about_box{
+    margin-left: 0px;
+  }
+  .about_vl_mobile{
+    border-left: 2px solid #5918df;
+    height: 305px;
+    width: 1px;
+  }
+  .about_circle
+{
+  margin-left: -17px;
+}
+.number_row{
+  margin-left: 6px;
+}
+}
